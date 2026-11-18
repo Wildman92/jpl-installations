@@ -46,3 +46,11 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:#eab308;box-sh
   .mcall{color:#facc15;border-right:1px solid var(--bdr)}
   .mbid{background:linear-gradient(135deg,#f59e0b,#ca8a04);color:#090b0e}
 }
+.pcard{background:var(--sur);border:1px solid var(--bdr);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.pcard img{width:100%;height:230px;object-fit:cover;display:block;border-bottom:1px solid var(--bdr)}
+.pbody{padding:18px;flex:1;display:flex;flex-direction:column;justify-content:space-between}
+.browser-wrap input[type="radio"]{display:none}
+.tab-bar{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
+.tab-bar label{cursor:pointer;padding:10px 18px;border-radius:8px;background:var(--sur);border:1px solid var(--bdr);font-weight:700;color:var(--sil)}
+#tab-all:checked ~ .tab-bar label[for="tab-all"],#tab-flooring:checked ~ .tab-bar label[for="tab-flooring"],#tab-fencing:checked ~ .tab-bar label[for="tab-fencing"]{background:#eab308;color:#090b0e}
+#tab-flooring:checked ~ .bgrid .item-fencing,#tab-fencing:checked ~ .bgrid .item-flooring{display:none}
