@@ -54,3 +54,8 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:#eab308;box-sh
 .tab-bar label{cursor:pointer;padding:10px 18px;border-radius:8px;background:var(--sur);border:1px solid var(--bdr);font-weight:700;color:var(--sil)}
 #tab-all:checked ~ .tab-bar label[for="tab-all"],#tab-flooring:checked ~ .tab-bar label[for="tab-flooring"],#tab-fencing:checked ~ .tab-bar label[for="tab-fencing"]{background:#eab308;color:#090b0e}
 #tab-flooring:checked ~ .bgrid .item-fencing,#tab-fencing:checked ~ .bgrid .item-flooring{display:none}
+.lb{display:none;position:fixed;inset:0;z-index:200;background:rgba(4,5,7,.95);padding:24px;align-items:center;justify-content:center;flex-direction:column}
+.lb:target{display:flex}
+.lb img{max-width:92vw;max-height:78vh;border-radius:10px;border:1px solid rgba(234,179,8,.5);box-shadow:0 20px 60px #000}
+.lb-cap{margin-top:14px;text-align:center;max-width:680px}
+.lb-close{margin-top:14px;background:var(--sur);border:1px solid var(--bdr);color:#facc15;padding:9px 20px;border-radius:8px;text-decoration:none;font-weight:800}
