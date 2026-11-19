@@ -60,3 +60,8 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:#eab308;box-sh
 .lb-cap{margin-top:14px;text-align:center;max-width:680px}
 .lb-close{margin-top:14px;background:var(--sur);border:1px solid var(--bdr);color:#facc15;padding:9px 20px;border-radius:8px;text-decoration:none;font-weight:800}
 .mbar{display:none}@media(max-width:740px){body{padding-bottom:68px}.mbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;bottom:0;left:0;right:0;z-index:150;background:#090b0e;border-top:1px solid rgba(234,179,8,.45);padding:10px 12px}.mbar a{text-align:center;padding:11px 8px;border-radius:8px;font-weight:800;font-size:.88rem;text-decoration:none}}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-size:16.5px;line-height:1.6}
+h1,h2,h3,h4{font-weight:800;letter-spacing:-0.025em;line-height:1.18;color:#f8fafc}
+p,li{max-width:65ch;line-height:1.62}
+table,td,th,a[href^="tel:"],.pill,.stag{font-variant-numeric:tabular-nums}
+.btn,.btn-o,.mbar a{letter-spacing:-0.01em}
