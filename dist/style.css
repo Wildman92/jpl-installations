@@ -65,3 +65,5 @@ h1,h2,h3,h4{font-weight:800;letter-spacing:-0.025em;line-height:1.18;color:#f8fa
 p,li{max-width:65ch;line-height:1.62}
 table,td,th,a[href^="tel:"],.pill,.stag{font-variant-numeric:tabular-nums}
 .btn,.btn-o,.mbar a{letter-spacing:-0.01em}
+
+body{font-family:"Inter",system-ui,sans-serif}h1,h2,h3,h4{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-weight:800;letter-spacing:-0.03em}
