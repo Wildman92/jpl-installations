@@ -67,3 +67,4 @@ table,td,th,a[href^="tel:"],.pill,.stag{font-variant-numeric:tabular-nums}
 .btn,.btn-o,.mbar a{letter-spacing:-0.01em}
 
 body{font-family:"Inter",system-ui,sans-serif}h1,h2,h3,h4{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-weight:800;letter-spacing:-0.03em}
+.lbox{overflow:hidden;text-align:center}.lbox span,.pill{white-space:normal!important;max-width:100%;letter-spacing:.05em;line-height:1.4;text-align:center}@media(max-width:860px){header{position:relative}.nav .btn-s{display:none}}
